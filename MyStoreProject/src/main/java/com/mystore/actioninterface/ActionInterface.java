@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 public interface ActionInterface {
 	
-	//Added all user actions abstract methods to achieve Abstraction  
+	//Added all user actions abstract methods to achieve Abstraction. 
 	public void scrollByVisibilityOfElement(WebDriver driver, WebElement ele);
 	public void click(WebDriver ldriver, WebElement ele);
 	public boolean isDisplayed(WebDriver ldriver, WebElement ele);
