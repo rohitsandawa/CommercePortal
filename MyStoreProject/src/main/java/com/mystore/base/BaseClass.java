@@ -27,7 +27,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 	public static Properties prop;
 
-	// Declare ThreadLocal Driver
+	// Declare ThreadLocal Driver.
 	public static ThreadLocal<RemoteWebDriver> driver = new ThreadLocal<>();
 
 	//loadConfig method is to load the configuration
