@@ -10,10 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 import com.mystore.actiondriver.Action;
 import com.mystore.base.BaseClass;
 
-/**
- * @author Hitendra
- *
- */
 public class ShippingPage extends BaseClass {
 	
 	Action action= new Action();
